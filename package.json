@@ -9,6 +9,7 @@
     "build-prod": "webpack -p --mode production",
     "clear": "rm dist/bundle.js",
     "test": "jest",
+    "lint": "eslint . --fix",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
